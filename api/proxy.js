@@ -4,7 +4,7 @@ export const config = {
   },
 };
 
-export default async function (req, res) {
+export default async function handler(req, res) {
   const targetUrl = 'http://mamedul.dx.am/contact-handler.php';
 
   if (req.method === 'OPTIONS') {
