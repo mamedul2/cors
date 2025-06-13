@@ -1,11 +1,9 @@
 {
   "functions": {
     "api/proxy.js": {
-      "runtime": "nodejs18.x",
       "memory": 128,
       "maxDuration": 10,
-      "excludeFiles": [],
-      "handler": "api/proxy.js"
+      "runtime": "nodejs18.x"
     }
   },
   "routes": [
