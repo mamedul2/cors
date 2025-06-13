@@ -1,12 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { Buffer } from 'buffer';
 
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
-
 const targetUrl = 'http://mamedul.dx.am/contact-handler.php';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
